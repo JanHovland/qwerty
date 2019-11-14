@@ -14,6 +14,7 @@
 		DB9E5A65237C22E3007C709B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E5A64237C22E3007C709B /* Assets.xcassets */; };
 		DB9E5A68237C22E4007C709B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E5A67237C22E4007C709B /* Preview Assets.xcassets */; };
 		DB9E5A6B237C22E4007C709B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9E5A69237C22E4007C709B /* LaunchScreen.storyboard */; };
+		DB9E5A73237C25B0007C709B /* CheckUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E5A72237C25B0007C709B /* CheckUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DB9E5A67237C22E4007C709B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB9E5A6A237C22E4007C709B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB9E5A6C237C22E4007C709B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9E5A72237C25B0007C709B /* CheckUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DB9E5A5B237C22DD007C709B /* AppDelegate.swift */,
 				DB9E5A5D237C22DD007C709B /* SceneDelegate.swift */,
 				DB9E5A62237C22DD007C709B /* ContentView.swift */,
+				DB9E5A72237C25B0007C709B /* CheckUser.swift */,
 				DB9E5A64237C22E3007C709B /* Assets.xcassets */,
 				DB9E5A69237C22E4007C709B /* LaunchScreen.storyboard */,
 				DB9E5A6C237C22E4007C709B /* Info.plist */,
@@ -151,6 +154,7 @@
 			files = (
 				DB9E5A5C237C22DD007C709B /* AppDelegate.swift in Sources */,
 				DB9E5A61237C22DD007C709B /* qwerty.xcdatamodeld in Sources */,
+				DB9E5A73237C25B0007C709B /* CheckUser.swift in Sources */,
 				DB9E5A63237C22DD007C709B /* ContentView.swift in Sources */,
 				DB9E5A5E237C22DD007C709B /* SceneDelegate.swift in Sources */,
 			);
@@ -290,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"qwerty/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UR9TA6744;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = qwerty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"qwerty/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UR9TA6744;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = qwerty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
